@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        h1{
+            text-align: center;
+            color: white;
+            padding-top: 20px;
+        }
+
+        form{
+            width: 70%;
+            height: 100%;
+            margin-left: 200px;
+            font-size: 110%;
+        }
+
+        button{
+            width: 120px;
+            background-color: black;
+            padding: 10px;
+            border-radius: 20px;
+            color: white;
+            margin-left: 30px;
+        }
+
+        button:hover{
+            color: red;
+            background-color: white;
+        }
+    </style>
+</head>
+<body background="https://gpshortcuts.co.uk/images/reghere.jpg">
+    <form>
+        <h1>Registration Form</h1>
+        <fieldset>
+            <legend>Student Information</legend><br>
+            <label>First Name:- </label>&nbsp;
+            <input type="text" name="name" placeholder="Enter your First Name" required>
+            <!-- <br><br> -->
+            <label>Middle Name:- </label>&nbsp;
+            <input type="text" name="name" placeholder="Enter your Middle Name" required>
+            <!-- <br><br> -->
+            <label>Last Name:- </label>&nbsp;
+            <input type="text" name="name" placeholder="Enter your Last Name" required>
+            <br><br>
+            <label>Gender:- </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="Gender"><b>Male</b>
+            <input type="radio" name="Gender"><b>Female</b>
+            <input type="radio" name="Gender"><b>Other</b>
+            <br><br>
+            <label>Email:- </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" name="name" placeholder="Enter your email" required>
+            <br><br>
+            <label>Date of Birth:- </label>&nbsp;
+            <input type="date" name="name">
+            <br><br>
+            <label>Mobile No:- </label>&nbsp;
+            <input type="number" name="number" placeholder="Enter your Mobile No" required>
+            <br><br>
+            <label>Address:- </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea name="name" rows="4" cols="30"></textarea>
+            <br><br>
+            <label>College Name:- </label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="name" placeholder="Enter your College Name" required>
+            <br><br>
+            <label>Qualification:- </label>&nbsp;
+            <input type="checkbox"><b>Bsc</b>
+            <input type="checkbox"><b>Bcom</b>
+            <input type="checkbox"><b>BBA</b>
+            <input type="checkbox"><b>Btech</b>
+            <input type="checkbox"><b>BE</b>
+            <input type="checkbox"><b>Msc</b>
+            <input type="checkbox"><b>ME</b>
+            <input type="checkbox"><b>Mtech</b>
+            <br><br>
+            <label>State:- </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="state">
+                <option>Choose</option>
+                <option>Maharastra</option>
+                <option>Delhi</option>
+                <option>Gujarat</option>
+                <option>Panjab</option>
+                <option>Rajasthan</option>
+            </select>
+            <br><br>
+            <label>City:- </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="city">
+                <option>Choose</option>
+                <option>Ahmednagar</option>
+                <option>Pune</option>
+                <option>Mumbai</option>
+                <option>Sambhajinagar</option>
+                <option>Satara</option>
+            </select>
+            <br><br>
+            <button>Save</button>
+            <button>Submit</button>
+        </fieldset>
+        
+    </form>
+</body>
+</html>

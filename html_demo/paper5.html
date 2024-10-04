@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sub webpage 5</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        /* horizontal menu bar */
+        .hori_menu{
+            float: left;
+            background-color: blue;
+            height: 80px;
+            width: 100%;
+        }
+        .hori_menu li{
+            display: inline-block;
+            margin-top: 15px;
+            margin-left: 80px;
+            height: 20px;
+            width: 100px;
+            float: left;
+            background-color: yellow;
+            border-radius: 20px;
+            padding: 10px;
+        }
+        .hori_menu a{
+            margin-left: 22px;
+            /* color: white; */
+            text-align: center;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        .hori_menu li:hover{
+            background-color: white;
+            color: blue;
+        }
+        /* p tag */
+        marquee{
+            width: 85%;
+            height: 20px;
+            float: right;
+            background-color: black;
+            color: white;
+        }
+        /* vertical menu bar */
+        .verti_menu{
+            width: 15%;
+            height: 1670px;
+            float: left;
+            background-color: blue;
+        }
+        .verti_menu li{
+            margin-top: 80px;
+            margin-left: 40px;
+            list-style-type: none;
+            height: 20px;
+            width: 80px;
+            float: left;
+            background-color: yellow;
+            padding: 12px;
+            border-radius: 20px;
+            color: blue;
+            text-align: center;
+        }
+        .verti_menu li:hover{
+            background-color: white;
+            color: blue;
+        }
+        /* videos */
+        .videos{
+            height: 300px;
+            width: 31%;
+            float: left;
+            background-color: red;
+            margin: 5px;
+        }
+        .v1{
+            width: 50%;
+            height: 150px;
+            float: left;
+            background-color: antiquewhite;
+        }
+        .v1 iframe{
+            width: 100%;
+            height: 150px;
+        }
+        .v2{
+            width: 50%;
+            height: 150px;
+            float: left;
+            background-color: aqua;
+        }
+        .v2 iframe{
+            width: 100%;
+            height: 150px;
+        }
+        .v3{
+            width: 50%;
+            height: 150px;
+            float: left;
+            background-color: aqua; 
+        }
+        .v3 iframe{
+            height: 150px;
+            width: 100%;
+        }
+        .v4{
+            width: 50%;
+            height: 150px;
+            float: left;
+            background-color: red;
+        }
+        .v4 iframe{
+            height: 150px;
+            width: 100%;
+        }
+        /* news_paper */
+        .news_paper{
+            width: 20%;
+            height: 300px;
+            float: left;
+            background-color: aqua;
+            margin-top: 5px;
+        }
+        .news_paper img{
+            width: 100%;
+            height: 300px;
+        }
+        /* audios */
+        .audios{
+            width: 31%;
+            height: 300px;
+            float: left;
+            background-color: red;
+            margin: 5px;
+            margin-right: 0px;
+        }
+        .a1{
+            width: 50%;
+            height: 150px;
+            float: left;
+
+        }
+        .a1 audio{
+            width: 100%;
+            height: 150px;
+        }
+        .a2{
+            width: 50%;
+            height: 150px;
+            float: left;
+        }
+        .a2 audio{
+            width: 100%;
+            height: 150px;
+        }
+        .a3{
+            width: 50%;
+            height: 150px;
+            float: left;
+        }
+        .a3 audio{
+            width: 100%;
+            height: 150px;
+        }
+        .a4{
+            width: 50%;
+            height: 150px;
+            float: left;
+        }
+        .a4 audio{
+            width: 100%;
+            height: 150px;
+        }
+        /* google_map */
+        .google_map{
+            width: 25%;
+            height: 300px;
+            float: left;
+            background-color: aqua;
+            margin: 5px;
+            margin-top: 0px;
+        }
+        /* a2z it hub website reflection */
+        .A2Z_web{
+            width: 26%;
+            height: 300px;
+            float: left;
+            background-color: aqua;
+        }
+        /* video reflection */
+        .video1{
+            width: 28%;
+            height: 300px;
+            float: right;
+            background-color: aqua;
+            margin-left: 5px;
+        }
+        .v5{
+            width: 14%;
+            height: 150px;
+            float: left;
+            background-color: antiquewhite;
+        }
+        .v5 iframe{
+            width: 100%;
+            height: 150px;
+        }
+        .v6{
+            width: 14%;
+            height: 150px;
+            float: left;
+            background-color: aqua;
+        }
+        .v6 iframe{
+            width: 100%;
+            height: 150px;
+        }
+        .v7{
+            width: 14%;
+            height: 150px;
+            float: left;
+            background-color: aqua; 
+        }
+        .v7 iframe{
+            height: 150px;
+            width: 100%;
+        }
+        .v8{
+            width: 14%;
+            height: 150px;
+            float: left;
+            background-color: red;
+        }
+        .v8 iframe{
+            height: 150px;
+            width: 100%;
+        }
+        /* list1 */
+        .list_1{
+            width: 15%;
+            height: 400px;
+            float: left;
+            background-color: rgb(16, 246, 16);
+        }
+        .list_1 ul{
+            margin: 50px;
+        }
+        .list_1 li{
+            margin-top: 20px;
+            margin-left: 20px;
+            padding: 40px;
+            padding-top: 0px;
+        }
+        /* table1 */
+        .table1{
+            width: 27%;
+            height: 400px;
+            float: left;
+            background-color: purple;
+        }
+        /* table2 */
+        .table2{
+            width: 27%;
+            height: 400px;
+            float: left;
+            background-color: blue;
+        }
+        /* list2 */
+        .list_2{
+            width: 15%;
+            height: 400px;
+            float: left;
+            background-color: rgb(16, 246, 16);
+        }
+        .list_2 ul{
+            margin: 50px;
+        }
+        .list_2 li{
+            margin-top: 20px;
+            margin-left: 20px;
+            padding: 40px;
+            padding-top: 0px;
+        }
+        .lokmat_logo{
+            width: 17%;
+            height: 300px;
+            float: left;
+            margin-top: 10px;
+        }
+        /* logo */
+        .maeq1{
+            width: 100%;
+            height: 300px;
+        }
+        .maeq1 img{
+            width: 100%;
+            height: 200px;
+        }
+        .Sarvmat_logo{
+            width: 17%;
+            height: 300px;
+            float: left;
+            margin-top: 10px;
+        }
+        .marq2{
+            width: 100%;
+            height: 300px;
+        }
+        .marq2 img{
+            width: 100%;
+            height: 200px;
+        }
+        .sakal_logo{
+            width: 17%;
+            height: 300px;
+            float: left;
+            margin-top: 10px;
+        }
+        .marq3{
+            width: 100%;
+            height: 300px;
+        }
+        .marq3 img{
+            width: 100%;
+            height: 200px;
+        }
+        .punynanagari_logo{
+            width: 17%;
+            height: 300px;
+            float: left;
+            margin-top: 10px;
+        }
+        .marq4{
+            width: 100%;
+            height: 300px;
+        }
+        .marq4 img{
+            width: 100%;
+            height: 200px;
+        }
+        .pudhari_logo{
+            width: 17%;
+            height: 300px;
+            float: left;
+            margin-top: 10px;
+        }
+        .marq5{
+            width: 100%;
+            height: 300px;
+        }
+        .marq5 img{
+            width: 100%;
+            height: 200px;
+        }
+        .img1{
+            width: 17%;
+            height: 300px;
+            float: left;
+            margin-top: 10px;
+        }
+        .img1 img{
+            width: 100%;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <!-- horizontal menu bar -->
+    <div class="hori_menu">
+        <ul>
+            <li style="margin-left: 70px;"><a href="#" style="margin-left: 15px;">All papers</a></li>
+            <li><a href="#">Sarvmat</a></li>
+            <li><a href="#" style="margin-left: 10px;">Punynagari</a></li>
+            <li><a href="#">Lokamt</a></li>
+            <li><a href="#" style="margin-left: 30px;">Sakal</a></li>
+            <li><a href="task14.html">Pudhari</a></li>
+        </ul>
+    </div>
+
+     <!-- p tag -->
+     <marquee>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, quam. Voluptatibus nihil rem ipsum doloribus.</p>
+    </marquee>
+
+    <!-- vertical menu bar -->
+    <div class="verti_menu">
+        <ul>
+            <li><a href="#">Sarvmat</a></li>
+            <li><a href="#">Punynagari</a></li>
+            <li><a href="#">Sakal</a></li>
+            <li><a href="#">Lokamt</a></li>
+            <li><a href="task14.html">Pudhari</a></li>
+        </ul>
+    </div>
+
+    <!-- video -->
+    <div class="videos">
+        <div class="v1">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eypRGVMQK60?si=PkNm62gmo_2r5VFr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="v2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eypRGVMQK60?si=PkNm62gmo_2r5VFr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="v3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eypRGVMQK60?si=PkNm62gmo_2r5VFr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="v4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eypRGVMQK60?si=PkNm62gmo_2r5VFr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- newspapaer -->
+    <div class="news_paper">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/PudhariCover.jpg/220px-PudhariCover.jpg">
+    </div>
+
+    <!-- audio -->
+    <div class="audios">
+        <div class="a1">
+            <audio controls>
+                <source src="../html/a.mp3" type="audio/mp3"><br>
+            </audio>
+        </div>
+       <div class="a2">
+            <audio controls>
+                <source src="../html/a.mp3" type="audio/mp3"><br>
+            </audio>
+       </div>
+        <div class="a3">
+            <audio controls>
+                <source src="../html/a.mp3" type="audio/mp3"><br>
+            </audio>
+        </div>
+        <div class="a4">
+            <audio controls>
+                <source src="../html/a.mp3" type="audio/mp3"><br>
+            </audio>
+        </div>
+        
+    </div>
+
+   <!-- google map -->
+    <div class="google_map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120637.94989580789!2d74.66027070448786!3d19.11046628073291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcb05d46788921%3A0x6677e92c1a5181b6!2sAhmednagar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1705216935026!5m2!1sen!2sin" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- website reflection -->
+    <div class="A2Z_web">
+        <iframe src="https://a2zithub.org/training" style="width: 100%;height: 300px;"></iframe>
+    </div>
+
+    <!-- you tube videos -->
+    <div class="videos">
+        <div class="v1">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eypRGVMQK60?si=PkNm62gmo_2r5VFr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="v2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eypRGVMQK60?si=PkNm62gmo_2r5VFr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="v3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eypRGVMQK60?si=PkNm62gmo_2r5VFr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="v4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eypRGVMQK60?si=PkNm62gmo_2r5VFr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- list -->
+    <div class="list_1">
+        <ul>
+            <li>Bcs</li>
+            <li>Bcs</li>
+            <li>Bcom</li>
+            <li>Ba</li>
+            <li>msc</li>
+        </ul>
+    </div>
+     
+    <!-- table1 -->
+    <div class="table1">
+        <table border="1" width="100%" height="66px">
+            <tr width="100%" height="66px">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr width="100%" height="66px">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr width="100%" height="66px">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr width="100%" height="66px">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr width="100%" height="66px">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr width="100%" height="57px">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- table2 -->
+    <div class="table2">
+        <table border="1" width="100%" height="66px">
+            <tr width="100%" height="66px">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr width="100%" height="66px">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr width="100%" height="66px">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr width="100%" height="66px">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr width="100%" height="66px">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr width="100%" height="57px">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+     <!-- list2 -->
+     <div class="list_2">
+        <ul>
+            <li>Bcs</li>
+            <li>Bcs</li>
+            <li>Bcom</li>
+            <li>Ba</li>
+            <li>msc</li>
+        </ul>
+    </div>
+
+    <!-- logo -->
+    <div class="lokmat_logo">
+        <marquee class="maeq1" direction="up" behavior="alternate">
+            <img src="https://s3.amazonaws.com/bookadsnow-live/newspapers/606/detail/Lokmat.png?1514551099">
+        </marquee>
+    </div>
+    <div class="Sarvmat_logo">
+        <marquee class="marq2" direction="down" behavior="alternate">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJRBF9nYvIQfff74SsMRq-V9O1c0bdXnZY55cRCn4_wQ&s">
+        </marquee>
+    </div>
+    <div class="sakal_logo">
+        <marquee class="marq3" direction="up" behavior="alternate">
+            <img src="https://india.mom-gmr.org/uploads/tx_lfrogmom/media/16653-1592_import.png">
+        </marquee>
+    </div>
+    <div class="punynanagari_logo">
+        <marquee class="marq4" direction="down" behavior="alternate">
+            <img src="https://content.jdmagicbox.com/comp/nashik/j3/0253p2550.2550.110202153430.w6j3/catalogue/punyanagari-newspaper-vakilwadi-nashik-newspaper-publishers-3e86f3h.jpg?clr=">
+        </marquee>
+    </div>
+    <div class="pudhari_logo">
+        <marquee class="marq5" direction="up" behavior="alternate">
+            <img src="https://content.jdmagicbox.com/comp/satara/41/9999pmulmumstd9999441/catalogue/pudhari-press-satara-newspaper-advertising-agencies-x59a088xoi.jpg">
+        </marquee>
+    </div>
+
+    <!-- images -->
+    <div class="img1">
+        <img src="https://wallpapers.com/images/featured/kabaddi-7awdb9vk9aw87dzo.jpg">
+    </div>
+    <div class="img1">
+        <img src="https://english.cdn.zeenews.com/sites/default/files/2023/04/12/1182381-gallerydhoni.jpg">
+    </div>
+    <div class="img1">
+        <img src="https://wallpapers.com/images/featured/kabaddi-7awdb9vk9aw87dzo.jpg">
+    </div>
+    <div class="img1">
+        <img src="https://english.cdn.zeenews.com/sites/default/files/2023/04/12/1182381-gallerydhoni.jpg">
+    </div>
+    <div class="img1">
+        <img src="https://wallpapers.com/images/featured/kabaddi-7awdb9vk9aw87dzo.jpg">
+    </div>
+</body>
+</html>
