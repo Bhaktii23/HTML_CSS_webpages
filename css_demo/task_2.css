@@ -1,0 +1,202 @@
+.task_15{
+    height: 600px;
+    width: 100%;
+    background-color: yellow;
+    float: left;
+    border-left-width: 5px;
+    border-left-color: black;
+    border-left-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-right-width: 5px;
+    border-right-color: black;
+    border-right-style: solid;
+}
+
+.task_16{
+    height: 100px;
+    width: 10%;
+    float: left;
+    border-right-width: 5px;
+    border-right-color: black;
+    border-right-style: solid;
+    border-top-width: 5px;
+    border-top-color: black;
+    border-top-style: solid;
+    box-sizing: border-box;
+    
+}
+
+.task_17{
+    height: 100px;
+    width: 80%;
+    float: left;   
+    
+}
+
+.task_18{
+    height: 100px;
+    width: 10%;
+    float: left;
+    border-left-width: 5px;
+    border-left-color: black;
+    border-left-style: solid;
+    border-top-width: 5px;
+    border-top-color: black;
+    border-top-style: solid;
+    box-sizing: border-box;
+}
+.task_19{
+    height: 100px;
+    width: 10%;
+    float: left;
+    
+}
+
+.task_20{
+    height: 100px;
+    width: 10%;
+    float: left;
+    border-right-width: 5px;
+    border-right-color: black;
+    border-right-style: solid;
+    border-top-width: 5px;
+    border-top-color: black;
+    border-top-style: solid; 
+   
+}
+.task_21{
+    height: 100px;
+    width: 60%;
+    float: left;   
+    
+}
+
+.task_22{
+    height: 100px;
+    width: 10%;
+    float: left;
+    border-left-width: 5px;
+    border-left-color: black;
+    border-left-style: solid;
+    border-top-width: 5px;
+    border-top-color: black;
+    border-top-style: solid;
+    
+}
+
+.task_23{
+    height: 100px;
+    width: 10%;
+    float: left;
+   
+}
+
+.task_24{
+    height: 100px;
+    width: 10%;
+    float: left;
+
+}
+
+.task_25{
+    height: 100px;
+    width: 10%;
+    float: left;
+    border-right-width: 5px;
+    border-right-color: black;
+    border-right-style: solid;
+    border-top-width: 5px;
+    border-top-color: black;
+    border-top-style: solid; 
+    
+}
+
+.task_26{
+    height: 100px;
+    width: 40%;
+    float: left;   
+    border-bottom-width: 5px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.task_27{
+    height: 100px;
+    width: 10%;
+    float: left;
+    border-left-width: 5px;
+    border-left-color: black;
+    border-left-style: solid;
+    border-top-width: 5px;
+    border-top-color: black;
+    border-top-style: solid;
+}
+.box1{
+    height: 250px;
+    width: 20%;
+    float: left;
+    background-color: red;
+    margin-left: 3%;
+    margin-top: 15px;
+    
+}
+.box1 img{
+    height: 250px;
+    width: 100%;
+    float: left;
+    border: 5px solid purple;
+    outline: 5px solid blue;
+}
+
+.box2{
+    height: 250px;
+    width: 22%;
+    float: left;
+    background-color: red;
+    margin-left: 3%;
+    margin-top: 15px;
+}
+
+.box2 img{
+    height: 250px;
+    width: 100%;
+    float: left;
+    border: 5px solid purple;
+    outline: 5px solid blue;
+}
+
+.box3{
+    height: 250px;
+    width: 22%;
+    float: left;
+    background-color: red;
+    margin-left: 3%;
+    margin-top: 15px;
+}
+
+.box3 img{
+    height: 250px;
+    width: 100%;
+    float: left;
+    border: 5px solid purple;
+    outline: 5px solid blue;
+}
+
+.box4{
+    height: 250px;
+    width: 20%;
+    float: left;
+    background-color: red;
+    margin-right: 3%;
+    margin-top: 15px;
+    margin-left: 3%;
+}
+.box4 img{
+    height: 250px;
+    width: 100%;
+    float: left;
+    border: 5px solid purple;
+    outline: 5px solid blue;
+}

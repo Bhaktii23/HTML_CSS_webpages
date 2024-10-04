@@ -1,0 +1,177 @@
+.task_1{
+    height: 60px;
+    width: 55px;
+    float: left;
+    background-color: darkblue;
+    border-top: 10px solid red;
+}
+
+.task_2{
+    height:60px;
+    width: 55px;
+    float: left;
+    background-color: darkblue;
+    border-bottom-width: 10px;
+    border-bottom-color: yellow;
+    border-bottom-style: double;
+    border-left-width: 10px;
+    border-left-color: yellow;
+    border-left-style: double;
+    border-right-width: 10px;
+    border-right-color: yellow;
+    border-right-style: double;
+}
+
+.task_3{
+    height: 200px;
+    width: 230px;
+    background-color: yellow;
+    float: left;
+    border-left-width: 30px;
+    border-left-color: white;
+    border-left-style: solid;
+    border-top-width: 20px;
+    border-top-color: white;
+    border-top-style: solid;
+}
+
+.task_4{
+    height: 200px;
+    width: 230px;
+    background-color: yellow;
+    float: left;
+    border-left-width: 30px;
+    border-left-color: white;
+    border-left-style: solid;
+    border-bottom-width: 20px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+}
+
+.task_5{
+    height: 200px;
+    width: 230px;
+    background-color: yellow;
+    float: left;
+    border-left-width: 30px;
+    border-left-color: white;
+    border-left-style: solid;
+    border-top-width: 20px;
+    border-top-color: white;
+    border-top-style: solid;
+}
+
+.task_6{
+    height: 200px;
+    width: 230px;
+    background-color: yellow;
+    float: left;
+    border-left-width: 30px;
+    border-left-color: white;
+    border-left-style: solid;
+    border-bottom-width: 20px;
+    border-bottom-color: white;
+    border-bottom-style: solid; 
+}
+
+.task_7{
+    height: 200px;
+    width: 230px;
+    background-color: yellow;
+    float: left;
+    border-left-width: 30px;
+    border-left-color: white;
+    border-left-style: solid;
+    border-top-width: 20px;
+    border-top-color: white;
+    border-top-style: solid;
+}
+
+.task_8{
+    height: 60px;
+    width: 55px;
+    float: left;
+    background-color: darkblue;
+    border-top: 10px solid black;
+}
+
+.task_9{
+    height:60px;
+    width: 55px;
+    float: left;
+    background-color: darkblue;
+    border-bottom-width: 10px;
+    border-bottom-color: red;
+    border-bottom-style: double;
+    border-left-width: 10px;
+    border-left-color: red;
+    border-left-style: double;
+    border-right-width: 10px;
+    border-right-color: red;
+    border-right-style: double;
+}
+
+.task_10{
+    height: 200px;
+    width: 230px;
+    background-color: yellow;
+    float: left;
+    border-left-width: 30px;
+    border-left-color: white;
+    border-left-style: solid;
+    border-top-width: 20px;
+    border-top-color: white;
+    border-top-style: solid;
+}
+
+.task_11{
+    height: 200px;
+    width: 230px;
+    background-color: yellow;
+    float: left;
+    border-left-width: 30px;
+    border-left-color: white;
+    border-left-style: solid;
+    border-bottom-width: 20px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+}
+
+.task_12{
+    height: 200px;
+    width: 230px;
+    background-color: yellow;
+    float: left;
+    border-left-width: 30px;
+    border-left-color: white;
+    border-left-style: solid;
+    border-top-width: 20px;
+    border-top-color: white;
+    border-top-style: solid;
+}
+
+.task_13{
+    height: 200px;
+    width: 230px;
+    background-color: yellow;
+    float: left;
+    border-left-width: 30px;
+    border-left-color: white;
+    border-left-style: solid;
+    border-bottom-width: 20px;
+    border-bottom-color: white;
+    border-bottom-style: solid; 
+}
+
+.task_14{
+    height: 200px;
+    width: 230px;
+    background-color: yellow;
+    float: left;
+    border-left-width: 30px;
+    border-left-color: white;
+    border-left-style: solid;
+    border-top-width: 20px;
+    border-top-color: white;
+    border-top-style: solid;
+}

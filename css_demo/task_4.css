@@ -1,0 +1,189 @@
+/* first line */
+.radius1{
+    width: 10%;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+    border: 10px groove red;
+    border-top-right-radius: 40px;
+    box-sizing: border-box;
+}
+
+.radius2{
+    width: 20%;
+    height: 100px;
+    float: left;
+}
+
+.rad_1{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+    border: 10px groove red;
+    border-top-left-radius: 40px;
+    box-sizing: border-box;
+}
+
+.rad_2{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+    border: 10px groove red;
+    border-top-right-radius: 40px;
+    box-sizing: border-box;
+}
+.radius17{
+    width: 10%;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+    border: 10px groove red;
+    border-top-left-radius: 40px;
+    box-sizing: border-box;
+}
+
+/* second line */
+.radius3{
+    width: 10%;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+    border: 10px groove red;
+    border-bottom-right-radius: 40px;
+    box-sizing: border-box;
+}
+.radius4{
+    width: 20%;
+    height: 100px;
+    float: left;
+}
+.rad_5{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+    border: 10px groove red;
+    border-bottom-left-radius: 40px;
+    box-sizing: border-box;
+}
+.rad_6{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+    border: 10px groove red;
+    border-bottom-right-radius: 40px;
+    box-sizing: border-box;
+}
+.rad_7{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: blue;
+    border: 10px groove red;
+    border-bottom-right-radius: 80%;
+    box-sizing: border-box;
+}
+.rad_8{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: blue;
+    border: 10px groove red;
+    border-bottom-left-radius: 80%;
+    box-sizing: border-box;
+}
+.radius18{
+    width: 10%;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+    border: 10px groove red;
+    border-bottom-left-radius: 40px;
+    box-sizing: border-box;
+}
+.radius20{
+    width: 10%;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+    border: 10px groove red;
+    border-top-left-radius: 40px;
+    box-sizing: border-box;
+}
+/* third line */
+.radius9{
+    width: 10%;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+    border: 10px groove red;
+    border-top-right-radius: 40px;
+    box-sizing: border-box;
+}
+.radius10{
+    width: 20%;
+    height: 100px;
+    float: left;
+}
+.rad_11{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: blue;
+    border: 10px groove red;
+    border-top-right-radius: 80%;
+    box-sizing: border-box;
+}
+.rad_12{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: blue;
+    border: 10px groove red;
+    border-top-left-radius: 80%;
+    box-sizing: border-box;
+}
+.rad_15{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+    border: 10px groove red;
+    border-bottom-right-radius: 40px;
+    box-sizing: border-box;
+}
+.rad_16{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+    border: 10px groove red;
+    border-bottom-left-radius: 40px;
+    box-sizing: border-box;
+}
+.radius13{
+    width: 10%;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+    border: 10px groove red;
+    border-bottom-right-radius: 40px;
+    box-sizing: border-box;
+}
+.radius14{
+    width: 20%;
+    height: 100px;
+    float: left;
+}
+.radius19{
+    width: 10%;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+    border: 10px groove red;
+    border-bottom-left-radius: 40px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,190 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.background{
+    width: 100%;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.b1{
+    width: 25%;
+    height: 650px;
+    float: left;
+    /* background-color: yellow; */
+    margin-left: 3%;
+}
+h3{
+    margin-top: 20px;
+    font-size: 75px;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px blue;
+}
+.b2{
+    width: 28%;
+    height: 600px;
+    float: left;
+    margin-top: 20px;
+    background-color: aqua;
+    margin-left: 3%;
+    border-radius: 20px;
+    border: 5px solid blue;
+    box-shadow: 1px 1px 10px 1px yellow;
+    background-image: url("https://files.123freevectors.com/wp-content/original/171023-orange-and-white-flower-background.jpg");
+}
+.b{
+    height: 15px;
+    width: 100%;
+    float: left;
+    /* background-color: blue; */
+    margin-top: 10px;
+}
+.b ion-icon {
+    float: right;
+    color: white;
+    padding-right: 2px;
+}
+.b p{
+    color: white;
+    float: right;
+}
+.bb{
+    height: 50px;
+    width: 100%;
+    float: left;
+    /* background-color: white; */
+    margin-top: 70px;
+}
+.bb p{
+    font-size: 40px;
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+}
+.bbb{
+    width: 90%;
+    height: 35px;
+    float: left;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.bbb p{
+    color: black;
+    padding-left: 15px;
+    margin-top: 8px;
+}
+.bbbb{
+    width: 100%;
+    height: 300px;
+    float: left;
+    /* background-color: blue; */
+    margin-top: 60px;
+    
+}
+.bbbb li{
+    display: inline-block;
+    height: 40px;
+    width: 50px;
+    float: left;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.k{
+    margin-left: 30px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.kk{
+    margin-left: 40px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.kkk{
+    margin-left: 40px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.kkkk{
+    margin-left: 40px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.bbbbb{
+    height: 30px;
+    width: 100%;
+    float: left;
+    /* background-color: blue; */
+    margin-top: 15px;
+}
+.bbbbb li{
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    float: left;
+    /* background-color: yellow; */
+    padding-left: 80px;
+    font-size: 30px;
+    color: white;
+}
+
+.b3{
+    width: 25%;
+    height: 550px;
+    float: left;
+    /* background-color: blueviolet; */
+    margin-left: 5%;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 22px 2px red;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    box-shadow: 0px 0px 14px 0px linen;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+h2{
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+input{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-left: 2px solid red;
+    box-shadow: 0px 0px 14px 0px linen;
+    border-right: 2px solid red;
+}
+textarea{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 15px;
+    height: 70px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 5px solid red;
+    color: rgb(214, 214, 214);
+    box-shadow: 0px 0px 14px 0px linen;
+}
+button{
+    height: 40px;
+    width: 25%;
+    background-color: rgb(185, 5, 5);
+    margin-top: 40px;
+    margin-left: 140px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
